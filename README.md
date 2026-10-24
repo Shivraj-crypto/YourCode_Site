@@ -2,7 +2,11 @@
   <img src="./public/yourcode-wordmark.png" alt="YourCode" width="420">
 </p>
 
-`python` · `closed source` · `seed`
+<p align="center">
+  <img src="https://img.shields.io/badge/python-3776AB?logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/closed%20source-555555" alt="Closed source">
+  <img src="https://img.shields.io/badge/seed-FF9800" alt="Seed">
+</p>
 
 # YourCode
 
@@ -31,4 +35,3 @@ Most practice sites hold your submissions, progress, and drafts on their servers
 ## Running it
 
 Download for Windows at [your-code-site.vercel.app](https://your-code-site.vercel.app/).
-

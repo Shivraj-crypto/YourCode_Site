@@ -1,29 +1,40 @@
-# Welcome to your Lovable project
+<p align="center">
+  <img src="./public/yourcode-wordmark.png" alt="YourCode" width="420">
+</p>
 
-This project was built with [Lovable](https://lovable.dev).
+# YourCode for Windows
 
-## Build with Lovable
+YourCode is a lightweight landing page for an offline Windows app that provides
+Python coding challenges with bundled Python, instant judging, local saves, and
+sandboxed runs.
 
-Open your project in the [Lovable editor](https://lovable.dev) and keep building.
+The site links visitors to the latest Windows installer release.
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
-- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
+## Tech stack
+
+- TanStack Start
+- React
+- TypeScript
+- Tailwind CSS
+- Vite
 
 ## Development
 
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+Install dependencies and start the development server:
 
 ```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
-npm run dev
+bun install
+bun run dev
 ```
 
-## Built with
+Open the local URL shown in the terminal.
 
-- TanStack Start
-- TypeScript
-- React
-- Tailwind CSS
+## Build and preview
+
+```sh
+bun run build
+bun run preview
+```
+
+The project can be deployed to Vercel using the **TanStack Start** preset and
+the default `bun run build` command.
